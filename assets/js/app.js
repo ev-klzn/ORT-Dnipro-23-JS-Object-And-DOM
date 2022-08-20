@@ -27,8 +27,7 @@ function game(){
     wrong.innerHTML = (`Ваш вариант (${count}/10)`);
 
     if(count>10){
-        answer.innerHTML = (`Game Over!!! Ответ был ${secret}`);
-        wrong.innerHTML = (``);
+        wrong.innerHTML = (`Game Over!!! Ответ был ${secret}`);
         count = 0;
 
           function game() {
