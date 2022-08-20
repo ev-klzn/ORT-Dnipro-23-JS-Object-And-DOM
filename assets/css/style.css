@@ -1,6 +1,6 @@
 .container {
     min-height: 100vh;
-    max-width: 550px;
+    max-width: 500px;
     text-align: justify;
 }
 
@@ -16,4 +16,12 @@ body {
 
 main>h1+div {
     font-size: 10rem;
+}
+
+.form-control {
+
+}
+
+button {
+
 }
