@@ -10,6 +10,10 @@ function game(){
 
     if(number == secret){
         right.innerHTML = (`Вы угадали!!!`);
+        function game() {
+            window.location.reload();
+          }
+          setTimeout(game, 1500);
 
     }else if(secret > number){
         more.innerHTML = (`Моё число больше ${number}`);
