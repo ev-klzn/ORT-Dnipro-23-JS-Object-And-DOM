@@ -28,7 +28,6 @@ function game(){
 
     if(count>10){
         wrong.innerHTML = (`Game Over!!! Ответ был ${secret}`);
-        count = 0;
 
           function game() {
             window.location.reload();
