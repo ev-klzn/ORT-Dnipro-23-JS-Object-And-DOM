@@ -1,14 +1,12 @@
-
-
+let count = 0;
+let secret = Math.random() * 100 +1;
+secret = Math.round(secret);
+console.log(secret);
 
 function game(){
-    let secret = Math.random();
-    console.log(secret);
+
     let number = +numberInput.value;
     console.log(number);
-    let count = 0;
-
-    
 
     if(number == secret){
         right.innerHTML = (`Вы угадали!!!`);
