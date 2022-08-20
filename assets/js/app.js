@@ -28,6 +28,7 @@ function game(){
 
     if(count>10){
         answer.innerHTML = (`Game Over!!! Ответ был ${secret}`);
+        wrong.innerHTML = (``);
         count = 0;
 
           function game() {
