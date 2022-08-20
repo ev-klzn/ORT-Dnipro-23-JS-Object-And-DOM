@@ -1,11 +1,15 @@
+
+
+
 function game(){
-    let secret = Math.round();
-    console.log(Math.round);
+    let secret = Math.random();
+    console.log(secret);
     let number = +numberInput.value;
     console.log(number);
     let count = 0;
 
     
+
     if(number == secret){
         right.innerHTML = (`Вы угадали!!!`);
 
@@ -19,7 +23,7 @@ function game(){
 
     wrong.innerHTML = (`Ваш вариант (${count}/10)`);
 
-    if(count > 10){
+    if(count>10){
         answer.innerHTML = (`Game Over!!! Ответ был ${secret}`);
     }
 
