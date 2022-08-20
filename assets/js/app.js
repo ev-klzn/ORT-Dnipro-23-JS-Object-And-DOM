@@ -1,5 +1,6 @@
 function game(){
-    let secret = 57;
+    let secret = Math.round();
+    console.log(Math.round);
     let number = +numberInput.value;
     console.log(number);
     let count = 0;
