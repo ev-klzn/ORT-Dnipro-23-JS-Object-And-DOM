@@ -10,6 +10,7 @@ function game(){
 
     if(number == secret){
         right.innerHTML = (`Вы угадали!!!`);
+        
         function game() {
             window.location.reload();
           }
