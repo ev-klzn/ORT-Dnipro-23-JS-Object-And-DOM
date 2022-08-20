@@ -1,6 +1,6 @@
 let count = 0;
 let secret = Math.random() * 100 +1;
-secret = Math.round(secret);
+secret = Math.floor(secret);
 console.log(secret);
 
 function game(){
